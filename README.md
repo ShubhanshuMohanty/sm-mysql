@@ -22,6 +22,19 @@ CREATE TABLE Emp (
     Salary BIGINT                -- Employee Salary
 );
 ```
+# Employee Database Table Description
+```sql
+desc Emp;
+```
+The `Emp` table contains information about employees in the company. Below are the details of the table structure:
+
+| Column Name | Data Type    | Description                          |
+|-------------|--------------|--------------------------------------|
+| **EmpId**   | `INT`        | Unique identifier for each employee. |
+| **EmpName** | `VARCHAR(45)`| Name of the employee.               |
+| **Role**    | `VARCHAR(30)`| Job role or position of the employee.|
+| **Salary**  | `BIGINT`     | The salary of the employee.         |
+
 ## Insert Data
 
 ```sql
@@ -48,3 +61,39 @@ SELECT * FROM Emp;
 | 3     | Charlie  | Tester     | 60000   |
 | 4     | Diana    | Developer  | 75000   |
 | 5     | Eve      | HR         | 50000   |
+
+### 2.Select Specific Columns
+```sql
+SELECT EmpName, Role FROM Emp;
+```
+| EmpName | Role      |
+|---------|-----------|
+| Alice   | Manager   |
+| Bob     | Developer |
+| Charlie | Tester    |
+| Diana   | Developer |
+| Eve     | HR        |
+
+### 3. Order Data by Salary (Descending)
+```sql
+SELECT * FROM Emp ORDER BY Salary DESC;
+```
+| EmpId | EmpName | Role      | Salary |
+|-------|---------|-----------|--------|
+| 1     | Alice   | Manager   | 120000 |
+| 2     | Bob     | Developer | 80000  |
+| 4     | Diana   | Developer | 75000  |
+| 3     | Charlie | Tester    | 60000  |
+| 5     | Eve     | HR        | 50000  |
+## Update Data
+Update Bob's Salary to 65,000
+```sql
+-- Update the salary of the employee named Bob
+UPDATE Emp SET Salary = 65000 WHERE EmpName = 'Bob';
+```
+## Delete Data
+Delete the Employee Named Eve
+```sql
+-- Delete the record of the employee named Eve
+DELETE FROM Emp WHERE EmpName = 'Eve';
+```
