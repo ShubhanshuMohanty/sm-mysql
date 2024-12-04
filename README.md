@@ -97,3 +97,4 @@ Delete the Employee Named Eve
 -- Delete the record of the employee named Eve
 DELETE FROM Emp WHERE EmpName = 'Eve';
 ```
+## omkar done commit
