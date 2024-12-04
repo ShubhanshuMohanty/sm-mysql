@@ -32,7 +32,7 @@ In MySQL, **constraints** are rules applied to table columns to ensure accuracy,
    ##### 3.To remove the primary key from a table:
    ```sql
    ALTER TABLE Users
-```DROP PRIMARY KEY;
+   DROP PRIMARY KEY;
    ```
 
 5. **FOREIGN KEY**  
