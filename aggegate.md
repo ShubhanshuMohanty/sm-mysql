@@ -1,4 +1,4 @@
-# SQL Queries with Outputs
+
 
 ### 1. Table Creation and Data Insertion
 ```sql
