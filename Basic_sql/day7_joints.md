@@ -63,5 +63,4 @@ insert into employee values(15,"Ranshyam",5);
 |   5 | finance    |
 +-----+------------+
 
-```
  
