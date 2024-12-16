@@ -1,4 +1,4 @@
-#omkar mahadik
+
 
 # MySQL Employee Database Operations
 
@@ -87,12 +87,14 @@ SELECT * FROM Emp ORDER BY Salary DESC;
 | 4     | Diana   | Developer | 75000  |
 | 3     | Charlie | Tester    | 60000  |
 | 5     | Eve     | HR        | 50000  |
+
 ## Update Data
 Update Bob's Salary to 65,000
 ```sql
 -- Update the salary of the employee named Bob
 UPDATE Emp SET Salary = 65000 WHERE EmpName = 'Bob';
 ```
+
 ## Delete Data
 Delete the Employee Named Eve
 ```sql
