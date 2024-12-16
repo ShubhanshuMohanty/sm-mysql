@@ -38,4 +38,29 @@ insert into employee values(14,"Radheshyam",4);
 insert into employee values(15,"Ranshyam",5);
 ```
 
+### 2. query: select all from employee
+```sql
+select * from employee;```
++------+------------+------+
+| eid  | ename      | did  |
++------+------------+------+
+|   11 | Ran        |    2 |
+|   12 | shyam      |    1 |
+|   13 | ghanshyam  |    1 |
+|   14 | Radheshyam |    4 |
+|   15 | Ranshyam   |    5 |
++------+------------+------+
+
+```sql select * from department;```
++-----+------------+
+| did | department |
++-----+------------+
+|   1 | IT         |
+|   2 | HR         |
+|   3 | Accounts   |
+|   4 | Admin      |
+|   5 | finance    |
++-----+------------+
+
+
  
