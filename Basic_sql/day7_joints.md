@@ -63,4 +63,22 @@ insert into employee values(15,"Ranshyam",5);
 |   5 | finance    |
 +-----+------------+
 
- 
+### 3. joints
+
+```sql 
+ which employee works in which department
+select employee.ename,department.department
+from employee
+inner join department
+on employee.did=department.did;
+
++------------+------------+
+| ename      | department |
++------------+------------+
+| shyam      | IT         |
+| ghanshyam  | IT         |
+| Ran        | HR         |
+| Radheshyam | Admin      |
+| Ranshyam   | finance    |
++------------+------------+
+ ```
