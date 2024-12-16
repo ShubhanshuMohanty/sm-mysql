@@ -39,8 +39,9 @@ insert into employee values(15,"Ranshyam",5);
 ```
 
 ### 2. query: select all from employee
+
 ```sql
-select * from employee;```
+ select * from employee;
 +------+------------+------+
 | eid  | ename      | did  |
 +------+------------+------+
@@ -51,7 +52,7 @@ select * from employee;```
 |   15 | Ranshyam   |    5 |
 +------+------------+------+
 
-```sql select * from department;```
+ select * from department;```
 +-----+------------+
 | did | department |
 +-----+------------+
@@ -62,5 +63,5 @@ select * from employee;```
 |   5 | finance    |
 +-----+------------+
 
-
+```
  
