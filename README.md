@@ -1,1 +1,5 @@
-chet sheet for practicing mysql
+<h1>Sql cheatsheet</h1>
+
+<h2>Day1 Basic sql</h2>
+<p>Topics: create database  , use database , insert data , update data , delete data</p>
+<a href="https://github.com/ShubhanshuMohanty/sm-mysql/blob/main/Basic_sql/day1_sql.md">code</a>
