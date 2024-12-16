@@ -71,9 +71,10 @@ select employee.ename,department.department
 from employee
 inner join department
 on employee.did=department.did;
- ```
+```
 
 **Output:**
+
 +------------+------------+
 | ename      | department |
 +------------+------------+
@@ -83,4 +84,3 @@ on employee.did=department.did;
 | Radheshyam | Admin      |
 | Ranshyam   | finance    |
 +------------+------------+
-
