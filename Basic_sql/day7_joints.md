@@ -74,7 +74,7 @@ on employee.did=department.did;
 ```
 
 **Output:**
-
+```sql
 +------------+------------+
 | ename      | department |
 +------------+------------+
@@ -84,3 +84,4 @@ on employee.did=department.did;
 | Radheshyam | Admin      |
 | Ranshyam   | finance    |
 +------------+------------+
+```
