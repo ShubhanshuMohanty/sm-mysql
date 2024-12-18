@@ -1,4 +1,6 @@
  ### 1. Table Creation and Data Insertion
+
+  ```sql
 create table salesman (
     salesman_id int primary key, -- Unique identifier for each salesman
     name varchar(50), -- Name of the salesman
@@ -32,6 +34,7 @@ insert into customer (customer_id, cust_name, city, grade, salesman_id) values (
 insert into customer (customer_id, cust_name, city, grade, salesman_id) values (3009, 'Brad Guzan', 'London', 200, 5005);
 insert into customer (customer_id, cust_name, city, grade, salesman_id) values (3003, 'Jozy Altidore', 'Moscow', 200, 5007);
 
+```
 # SQL Queries and Outputs
 
 <!-- Query 1: Select salesmen and customers in the same city -->
