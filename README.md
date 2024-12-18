@@ -5,5 +5,6 @@
 <a href="https://github.com/ShubhanshuMohanty/sm-mysql/blob/main/Basic_sql/day1_sql.md">code</a>
 
 <h2>/day2 Constraintpart1</h2>
-<p></p>
+<p>Topics: NOT NULL Constraint , PRIMARY KEY Constraint , FOREIGN KEY Constraint , DEFAULT Constraint , CHECK Constraint , AUTO_INCREMENT Constraint , Comprehensive Example
+ </p>
 <a href="#">code</a>
